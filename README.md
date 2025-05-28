@@ -65,4 +65,17 @@ cd kafka_2.13-3.6.1
 .\bin\windows\kafka-server-start.bat .\config\server.properties
 npm run dev
 
+
+Suggested Improvements:
+ Configure replication, partitioning to distribute load
+ Monitor Kafka health and lag
+ WebSocket Server:
+ Scale horizontally with multiple WebSocket server instances
+ Use Redis to broadcast messages across instances
+ Implement rate limiting and security policies
+ Graceful shutdown and recovery
+ Health checks and auto-restart policies
+
+ 
+
  
