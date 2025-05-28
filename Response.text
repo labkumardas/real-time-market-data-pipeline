@@ -1,0 +1,91 @@
+
+#Response Data 
+
+Kafka Producer connected
+Kafka Consumer connected
+{"level":"INFO","timestamp":"2025-05-28T14:14:30.856Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kraken-group"}
+Connected to Kraken WebSocket
+  Data: {
+  symbol: 'XBT/USD',
+  timestamp: '2025-05-28T14:14:33.431Z',
+  bid: 108022.3,
+  ask: 108022.4
+}
+  Data: {
+  symbol: 'ETH/USD',
+  timestamp: '2025-05-28T14:14:33.434Z',
+  bid: 2642.98,
+  ask: 2642.99
+}
+  Data: {
+  symbol: 'ETH/USD',
+  timestamp: '2025-05-28T14:14:34.043Z',
+  bid: 2642.98,
+  ask: 2643.73
+}
+  Data: {
+  symbol: 'XBT/USD',
+  timestamp: '2025-05-28T14:14:34.303Z',
+  bid: 108022.3,
+  ask: 108031
+}
+  Data: {
+  symbol: 'XBT/USD',
+  timestamp: '2025-05-28T14:14:34.310Z',
+  bid: 108024.1,
+  ask: 108042.5
+}
+  Data: {
+  symbol: 'XBT/USD',
+  timestamp: '2025-05-28T14:14:34.325Z',
+  bid: 108030.9,
+  ask: 108048
+}
+  Data: {
+  symbol: 'ETH/USD',
+  timestamp: '2025-05-28T14:14:34.809Z',
+  bid: 2643.72,
+  ask: 2643.73
+}
+  Data: {
+  symbol: 'XBT/USD',
+  timestamp: '2025-05-28T14:14:35.422Z',
+  bid: 108047.9,
+  ask: 108048
+}
+  Data: {
+  symbol: 'XBT/USD',
+  timestamp: '2025-05-28T14:14:35.438Z',
+  bid: 108047.9,
+  ask: 108048
+}
+  Data: {
+  symbol: 'XBT/USD',
+  timestamp: '2025-05-28T14:14:35.510Z',
+  bid: 108047.9,
+  ask: 108048
+}
+  Data: {
+  symbol: 'XBT/USD',
+  timestamp: '2025-05-28T14:14:35.542Z',
+  bid: 108047.9,
+  ask: 108048
+}
+  Data: {
+  symbol: 'XBT/USD',
+  timestamp: '2025-05-28T14:14:35.874Z',
+  bid: 108025,
+  ask: 108048
+}
+  Data: {
+  symbol: 'ETH/USD',
+  timestamp: '2025-05-28T14:14:39.356Z',
+  bid: 2643.56,
+  ask: 2643.57
+}
+  Data: {
+  symbol: 'ETH/USD',
+  timestamp: '2025-05-28T14:14:41.201Z',
+  bid: 2642.64,
+  ask: 2643.57
+}
