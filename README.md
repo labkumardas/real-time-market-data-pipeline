@@ -20,27 +20,26 @@ The architecture consists of the following components:
 - **WebSocket Server**: Broadcasts the consumed data to connected WebSocket clients in real-time.
 
 ## Project Structure
-
-├── server.js # Entry point: Sets up HTTP server, initializes app.js
-├── app.js # Initializes WebSocket, Kafka connections
+├── server.js                 # Entry point: Sets up HTTP server, initializes app.js
+├── app.js                   # Initializes WebSocket, Kafka connections
 ├── src/
-│ ├── services/
-│ │ └── WebSocketService.js # WebSocket server implementation
-│ ├── repository/
-│ │ ├── KrakenRepository.js # Kraken WebSocket client for ticker data
-│ │ └── KafkaRepository.js # Kafka producer and consumer logic
-│ ├── middleware/
-│ │ └── errorHandler.js # Error handling middleware
-│ ├── utils/
-│ │ └── logger.js # Custom logger (using Winston)
-│ └── controller/
-│ └── WebSocketController.js # WebSocket message handling
+│   ├── services/
+│   │   └── WebSocketService.js   # WebSocket server implementation
+│   ├── repository/
+│   │   ├── KrakenRepository.js   # Kraken WebSocket client for ticker data
+│   │   └── KafkaRepository.js    # Kafka producer and consumer logic
+│   ├── middleware/
+│   │   └── errorHandler.js       # Error handling middleware
+│   ├── utils/
+│   │   └── logger.js             # Custom logger (using Winston)
+│   └── controller/
+│       └── WebSocketController.js  # WebSocket message handling
 ├── config/
-│ ├── kafka.config.js # Kafka client configuration
-│ └── ws.config.js # WebSocket server configuration
+│   ├── kafka.config.js           # Kafka client configuration
+│   └── ws.config.js              # WebSocket server configuration
 ├── package.json
-├── .env # Environment variables (e.g., Kafka, WebSocket URLs)
-└── README.md # Project documentation
+├── .env                         # Environment variables (e.g., Kafka, WebSocket URLs)
+└── README.md                    # Project documentation
 
 
 ## Prerequisites
