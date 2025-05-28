@@ -3,7 +3,7 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
+README.md
 # Logs
 logs/
 *.log
@@ -11,7 +11,7 @@ logs/
 *.pid
 
 # Environment variables
-.env
+#.env
 
 # OS files
 .DS_Store

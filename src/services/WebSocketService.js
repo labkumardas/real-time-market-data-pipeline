@@ -10,7 +10,6 @@ class WebSocketService {
 
         this.wss.on('connection', (ws) => {
             this.controller.handleConnection(ws);
-
             ws.on('message', (message) => this.controller.handleMessage(ws, message));
             ws.on('close', () => this.controller.handleDisconnection(ws));
             ws.on('error', (err) => console.error(`WebSocket error: ${err}`));

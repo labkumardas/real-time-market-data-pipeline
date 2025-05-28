@@ -20,8 +20,7 @@ The architecture consists of the following components:
 - **WebSocket Server**: Broadcasts the consumed data to connected WebSocket clients in real-time.
 
 ## Project Structure
-
-├── server.js # Entry point: Sets up HTTP server, initializes app.js
+ ├── server.js # Entry point: Sets up HTTP server, initializes app.js
 ├── app.js # Initializes WebSocket, Kafka connections
 ├── src/
 │ ├── services/
@@ -41,6 +40,7 @@ The architecture consists of the following components:
 ├── package.json
 ├── .env # Environment variables (e.g., Kafka, WebSocket URLs)
 └── README.md # Project documentation
+ 
 
 
 ## Prerequisites
@@ -64,5 +64,18 @@ cd kafka_2.13-3.6.1
 cd kafka_2.13-3.6.1
 .\bin\windows\kafka-server-start.bat .\config\server.properties
 npm run dev
+
+
+Suggested Improvements:
+ Configure replication, partitioning to distribute load
+ Monitor Kafka health and lag
+ WebSocket Server:
+ Scale horizontally with multiple WebSocket server instances
+ Use Redis to broadcast messages across instances
+ Implement rate limiting and security policies
+ Graceful shutdown and recovery
+ Health checks and auto-restart policies
+
+ 
 
  

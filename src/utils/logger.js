@@ -10,11 +10,10 @@ const logger = winston.createLogger({
     ),
     transports: [
         new winston.transports.Console(),
-        // you can add file transports if needed
+        // we can add file transports if needed
     ],
 });
 
-// Add helper for HTTP logs from morgan
 logger.http = (msg) => logger.log('info', `[HTTP] ${msg}`);
 
 export default logger;
